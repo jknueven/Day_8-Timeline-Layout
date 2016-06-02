@@ -14,8 +14,9 @@ h2 {
 
 h3 {
   color: white;
+  font-family: helvetica;
   font-style: bold;
-  font-size: 35px; }
+  font-size: 25px; }
 
 p {
   font-family: arial;
@@ -29,7 +30,8 @@ p {
   display: block; }
 
 .time {
-  text-align: right; }
+  text-align: right;
+  padding-right: 0; }
 
 .circle {
   width: 40px;
@@ -63,7 +65,7 @@ p {
 
 .notch {
   position: absolute;
-  top: 20px;
+  top: 13px;
   left: -10px;
   margin: 0;
   border-top: 10px solid transparent;
@@ -80,5 +82,73 @@ p {
   border-bottom: 1px solid white;
   padding-bottom: 15px; }
 
-.bottom {
-  margin-top: 10px; }
+.top {
+  padding-top: 10px; }
+
+.top, .bottom {
+  margin-top: 15px;
+  margin-left: 5px; }
+
+.time2 {
+  text-align: right;
+  padding-right: 0; }
+
+.time2 h1 {
+  color: #38a3db; }
+
+.content2 {
+  height: 300px;
+  border-radius: 7px 7px 7px 7px;
+  margin-top: 10px;
+  background-color: #38a3db; }
+
+.content2 .notch {
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  margin: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #79C1E7;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-right: 10px solid #38a3db; }
+
+.tv i {
+  font-size: 19px;
+  left: 4px;
+  position: relative;
+  top: 4px; }
+
+.time3 {
+  text-align: right;
+  padding-right: 0; }
+
+.time3 h1 {
+  color: #1e79a9; }
+
+.content3 {
+  height: 300px;
+  border-radius: 7px 7px 7px 7px;
+  margin-top: 10px;
+  background-color: #1e79a9; }
+
+.content3 .notch {
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  margin: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #79C1E7;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border-right: 10px solid #1e79a9; }
+
+.car i {
+  font-size: 18px;
+  left: 4px;
+  position: relative;
+  top: 4px; }

@@ -4,6 +4,46 @@ $tertiaryColor: #B5DDF4;
 
 @import "text";
 
+@mixin content {
+	height:300px;
+	border-radius: 7px 7px 7px 7px;
+	margin-top: 10px;
+}
+
+@mixin time {
+	text-align: right;
+	padding-right:0;
+}
+
+@mixin notch {
+	position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+  	border-top: 10px solid transparent;
+ 	border-bottom: 10px solid transparent; 
+  	border-right:10px solid $primaryColor;
+    padding: 0;
+    width: 0;
+    height: 0;
+}
+
+@mixin circle {
+	width:  40px;
+	height: 40px;
+	border: 6px solid $tertiaryColor;
+	border-radius: 50%;
+	background-color:$primaryColor;
+}
+
+@mixin icon {
+	color: white;
+	font-size: 25px;
+    left: 9px;
+    position: relative;
+    top: 1px;
+}
+
 .container {
 	width:990;
 	padding-top:30px;
@@ -13,10 +53,11 @@ $tertiaryColor: #B5DDF4;
 
 .time {
 	text-align: right;
+	padding-right:0;
 }
 
 .circle {
-	width: 40px;
+	width:  40px;
 	height: 40px;
 	border: 6px solid $tertiaryColor;
 	border-radius: 50%;
@@ -52,7 +93,7 @@ $tertiaryColor: #B5DDF4;
 
 .notch {
 	position: absolute;
-    top: 20px;
+    top: 13px;
     left: -10px;
     margin: 0;
   	border-top: 10px solid transparent;
@@ -72,6 +113,60 @@ $tertiaryColor: #B5DDF4;
   padding-bottom:15px;
 }
 
-.bottom {
-	margin-top:10px;
+.top {
+	padding-top:10px;
+}
+.top, .bottom {
+	margin-top:15px;
+	margin-left:5px;
+}
+
+.time2 {
+	@include time;
+}
+
+.time2 h1 {
+	color:darken($primaryColor,15);
+}
+
+.content2 {
+	@include content;
+	background-color:darken($primaryColor,15);
+}
+
+.content2 .notch {
+	@include notch;
+	border-right:10px solid darken($primaryColor,15);
+}
+
+.tv i{
+	font-size: 19px;
+    left: 4px;
+    position: relative;
+    top: 4px;
+}
+
+.time3 {
+	@include time;
+}
+
+.time3 h1 {
+	color:darken($primaryColor,30);
+}
+
+.content3 {
+	@include content;
+	background-color:darken($primaryColor,30);
+}
+
+.content3 .notch {
+	@include notch; 
+	border-right:10px solid darken($primaryColor,30);
+}
+
+.car i {
+	font-size: 18px;
+    left: 4px;
+    position: relative;
+    top: 4px;
 }
