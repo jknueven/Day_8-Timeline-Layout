@@ -12,6 +12,16 @@ h2 {
   margin-top: 10px;
   margin-bottom: 4px; }
 
+h3 {
+  color: white;
+  font-style: bold;
+  font-size: 35px; }
+
+p {
+  font-family: arial;
+  color: white;
+  font-size: 14px; }
+
 .container {
   width: 990;
   padding-top: 30px;
@@ -39,7 +49,8 @@ h2 {
   height: 100%; }
 
 .line {
-  height: 270px;
+  height: 275px;
+  margin-top: -2px;
   margin-left: 17px;
   width: 7px;
   background-color: #B5DDF4; }
@@ -61,3 +72,13 @@ h2 {
   padding: 0;
   width: 0;
   height: 0; }
+
+.header {
+  margin-top: -10px; }
+
+.header h3 {
+  border-bottom: 1px solid white;
+  padding-bottom: 15px; }
+
+.bottom {
+  margin-top: 10px; }
