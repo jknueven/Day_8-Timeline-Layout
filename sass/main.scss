@@ -55,8 +55,8 @@ $tertiaryColor: #B5DDF4;
 .container {
 	width:990;
 	padding-top:30px;
-	padding-left:30px;
 	display: block;
+	align: left;
 }
 
 .time {
@@ -114,27 +114,29 @@ $tertiaryColor: #B5DDF4;
 
 .header {
 	margin-top:-10px;
-}
 
-.header h3 {
-  border-bottom:1px solid white;
-  padding-bottom:15px;
+	h3 {
+	border-bottom:1px solid white;
+  	padding-bottom:15px;}
 }
 
 .top {
 	padding-top:10px;
-}
-.top, .bottom {
+	
+	.bottom {
 	margin-top:15px;
 	margin-left:5px;
+	}
+
 }
+
 
 .time2 {
 	@include time;
-}
 
-.time2 h1 {
+	h1 {
 	color:darken($primaryColor,10);
+	}
 }
 
 .circle2 {
@@ -145,11 +147,11 @@ $tertiaryColor: #B5DDF4;
 .content2 {
 	@include content;
 	background-color:darken($primaryColor,10);
-}
 
-.content2 .notch {
+	.notch {
 	@include notch;
 	border-right:10px solid darken($primaryColor,10);
+	}
 }
 
 .tv i{
@@ -162,10 +164,8 @@ $tertiaryColor: #B5DDF4;
 
 .time3 {
 	@include time;
-}
 
-.time3 h1 {
-	color:darken($primaryColor,20);
+	h1 {color:darken($primaryColor,20);}
 }
 
 .circle3 {
@@ -176,12 +176,13 @@ $tertiaryColor: #B5DDF4;
 .content3 {
 	@include content;
 	background-color:darken($primaryColor,20);
-}
 
-.content3 .notch {
+	.notch {
 	@include notch; 
 	border-right:10px solid darken($primaryColor,20);
+	}
 }
+
 
 .car i {
 	color:white;
@@ -193,10 +194,10 @@ $tertiaryColor: #B5DDF4;
 
 .time4 {
 	@include time;
-}
 
-.time4 h1 {
-	color:darken($primaryColor,30);
+	h1 {
+		color:darken($primaryColor,30);
+	}
 }
 
 .circle4 {

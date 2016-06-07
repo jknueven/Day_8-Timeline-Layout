@@ -26,8 +26,8 @@ p {
 .container {
   width: 990;
   padding-top: 30px;
-  padding-left: 30px;
-  display: block; }
+  display: block;
+  align: left; }
 
 .time {
   text-align: right;
@@ -77,24 +77,21 @@ p {
 
 .header {
   margin-top: -10px; }
-
-.header h3 {
-  border-bottom: 1px solid white;
-  padding-bottom: 15px; }
+  .header h3 {
+    border-bottom: 1px solid white;
+    padding-bottom: 15px; }
 
 .top {
   padding-top: 10px; }
-
-.top, .bottom {
-  margin-top: 15px;
-  margin-left: 5px; }
+  .top .bottom {
+    margin-top: 15px;
+    margin-left: 5px; }
 
 .time2 {
   text-align: right;
   padding-right: 0; }
-
-.time2 h1 {
-  color: #4eaddf; }
+  .time2 h1 {
+    color: #4eaddf; }
 
 .circle2 {
   width: 40px;
@@ -109,19 +106,18 @@ p {
   border-radius: 7px 7px 7px 7px;
   margin-top: 10px;
   background-color: #4eaddf; }
-
-.content2 .notch {
-  position: absolute;
-  top: 13px;
-  left: -10px;
-  margin: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #79C1E7;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border-right: 10px solid #4eaddf; }
+  .content2 .notch {
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #79C1E7;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #4eaddf; }
 
 .tv i {
   color: white;
@@ -133,9 +129,8 @@ p {
 .time3 {
   text-align: right;
   padding-right: 0; }
-
-.time3 h1 {
-  color: #2698d4; }
+  .time3 h1 {
+    color: #2698d4; }
 
 .circle3 {
   width: 40px;
@@ -150,19 +145,18 @@ p {
   border-radius: 7px 7px 7px 7px;
   margin-top: 10px;
   background-color: #2698d4; }
-
-.content3 .notch {
-  position: absolute;
-  top: 13px;
-  left: -10px;
-  margin: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #79C1E7;
-  padding: 0;
-  width: 0;
-  height: 0;
-  border-right: 10px solid #2698d4; }
+  .content3 .notch {
+    position: absolute;
+    top: 13px;
+    left: -10px;
+    margin: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #79C1E7;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border-right: 10px solid #2698d4; }
 
 .car i {
   color: white;
@@ -174,9 +168,8 @@ p {
 .time4 {
   text-align: right;
   padding-right: 0; }
-
-.time4 h1 {
-  color: #1e79a9; }
+  .time4 h1 {
+    color: #1e79a9; }
 
 .circle4 {
   width: 40px;
